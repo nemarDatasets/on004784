@@ -1,28 +1,113 @@
 {
   "version": "2.0",
-  "dataset_id": "on004784",
-  "source": "openneuro",
-  "source_id": "ds004784",
+  "pipeline_stage": "enriched",
   "title": "Phantom EEG Dataset with Motion, Muscle, and Eye Artifacts and Example Scripts",
-  "authors": {
-    "Ryan J. Downey": {},
-    "Daniel P. Ferris": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Ryan J. Downey": {
+      "orcid": "0000-0002-0822-5488"
+    },
+    "Daniel P. Ferris": {
+      "orcid": "0000-0001-6373-6021"
+    }
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004784.v1.0.4",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.3390/s23198214",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004784",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004784",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".PNG",
+    ".SLDASM",
+    ".SLDPRT",
+    ".STEP",
+    ".STL",
+    ".docx",
+    ".fdt",
+    ".json",
+    ".m",
+    ".mat",
+    ".md",
+    ".pdf",
+    ".png",
+    ".pptx",
+    ".set",
+    ".stl",
+    ".tsv",
+    ".txt",
+    ".xlsx",
+    ".zip"
+  ],
+  "description": "This phantom EEG dataset contains recordings from an electrically conductive head model under six controlled conditions: brain-only baseline, and brain signals combined with eye, jaw muscle, neck muscle, motion, or simultaneous artifacts. The dataset includes ground truth brain signals and is designed to validate artifact removal methods, particularly the iCanClean plugin for EEGLAB. Accompanying scripts enable parameter sweep testing and systematic evaluation of artifact detection and removal algorithms.",
+  "methods_description": "EEG data were collected from an electrically conductive head phantom under six experimental conditions: brain-only (no artifacts), brain with eye artifacts, brain with jaw muscle artifacts, brain with neck muscle artifacts, brain with motion artifacts, and brain with all artifacts simultaneously present.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "artifact removal"
+    },
+    {
+      "term": "motion artifacts"
+    },
+    {
+      "term": "muscle artifacts"
+    },
+    {
+      "term": "eye artifacts"
+    },
+    {
+      "term": "phantom"
+    },
+    {
+      "term": "signal processing"
+    },
+    {
+      "term": "EEGLAB"
+    },
+    {
+      "term": "validation"
+    },
+    {
+      "term": "iCanClean"
+    },
+    {
+      "term": "ground truth"
+    },
+    {
+      "term": "phantom head model"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "HED"
+    }
+  ],
+  "source_hash": "40ddc7b6738b0b62719086204d406229505cf0cf47c10e755f1b404424deea66"
 }
