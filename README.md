@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004784-blue)](https://doi.org/10.82901/nemar.on004784)
+
 This phantom experiment contains data collected from a an 
 electrically conductive head phantom. Six conditions were 
 tested: brain-only [no artifacts], or  brain with eye, 
