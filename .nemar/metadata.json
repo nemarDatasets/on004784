@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Phantom EEG Dataset with Motion, Muscle, and Eye Artifacts and Example Scripts",
-  "description": "This phantom EEG dataset contains recordings from an electrically conductive head model under six controlled conditions: brain-only baseline, and brain signals combined with eye, jaw muscle, neck muscle, motion, or simultaneous artifacts. The dataset includes ground truth brain signals and accompanying iCanClean plugin scripts for EEGLAB, enabling artifact detection and removal validation with known signal composition.",
-  "methods_description": "EEG data were collected from a conductive head phantom under six experimental conditions: brain-only (no artifacts), brain with eye artifacts, brain with jaw muscle artifacts, brain with neck muscle artifacts, brain with motion artifacts, and brain with all artifacts simultaneously present.",
+  "description": "This phantom EEG dataset contains recordings from an electrically conductive head model under six controlled conditions: brain-only baseline, and brain signals combined with eye, jaw muscle, neck muscle, motion, or simultaneous artifacts. The dataset includes ground truth brain signals and accompanying EEGLAB scripts for artifact detection validation and parameter optimization, supporting development and benchmarking of EEG artifact removal methods.",
+  "methods_description": "Data were collected from an electrically conductive head phantom under six experimental conditions: brain-only (no artifacts), brain with eye artifacts, brain with jaw muscle artifacts, brain with neck muscle artifacts, brain with motion artifacts, and brain with all artifacts simultaneously present.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -31,7 +31,7 @@
       "term": "eye artifacts"
     },
     {
-      "term": "phantom model"
+      "term": "phantom"
     },
     {
       "term": "signal processing"
